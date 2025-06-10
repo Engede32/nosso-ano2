@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso Amor 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fff0f5;
+      --accent: #f9c6d3;
+      --text: #5c2a55;
+      --card: rgba(255, 255, 255, 0.75);
+      --shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(180deg, #ffe4ec, #ffffff);
+      color: var(--text);
+      padding: 1rem;
+      animation: fadeIn 1s ease;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #b03b6f;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #a2678a;
+    }
+
+    .card {
+      background: var(--card);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: var(--shadow);
+      animation: slideUp 0.8s ease;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #b03b6f;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+    }
+
+    .gallery img {
+      height: 150px;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+      transition: transform 0.3s;
+      flex-shrink: 0;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .timeline {
+      position: relative;
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
+      margin-top: 1rem;
+    }
+
+    .event {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+    }
+
+    .event .dot {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+
+    .event .content h3 {
+      margin: 0;
+      font-size: 1rem;
+      color: #b03b6f;
+    }
+
+    .event .content p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-top: 0.3rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #a87b9c;
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to   { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .gallery img {
+        height: 120px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        max-width: 720px;
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2º Ano do Nosso Amor 💖</h1>
+    <p class="subtitle">Pequenas lembranças que aquecem o coração</p>
+  </header>
+
+  <section class="card">
+    <h2>💌 Carta para você</h2>
+    <p>Oii meu amor, olá gente.  Bem! 2 anos meu amor!! ÊBA!!!!!!!!!!!!! Estamos em festa meu amor.
+
+ Uau! até onde chegamos né, meu amor?! Hoje completamos dois anos de uma história escrita com sorrisos, cumplicidade e muito amor. Dois anos em que cada dia ao seu lado me mostrou o quanto é bom compartilhar a vida com alguém tão especial.
+
+Lembro de cada momento, dos desafios que superamos e ainda superamos juntos, das risadas que ecoaram no ar e do carinho que só cresce com o tempo. Você é meu porto seguro, meu maior apoio e minha alegria diária.
+
+Que essa data seja só mais um capítulo da nossa trajetória, repleto de planos, sonhos e muito amor para continuarmos construindo. Eu te amo mais do que palavras podem dizer, e sou grato por cada instante ao seu lado.
+ mesmo com a distância, nenhum quilômetro foi capaz de diminuir o que sinto por você. Cada ligação, cada mensagem e cada videochamada só confirmam o quanto nosso amor é maior do que qualquer desafio.
+ 
+    <br><br>
+   Enquanto você está aí, entre plantas baixas e pespectivas isometricas , eu estou aqui torcendo por você e admirando sua força para continuar, na esperaça de nos encotrarmos novamente.😊
+
+Mesmo longe, a gente sempre encontra um jeito de se fazer presente: um "bom dia" no WhatsApp, um delivery surpresa nos dias mais puxados ou aquela chamada no final do dia só para contar como foi a rotina. E são esses detalhes que fazem nossa relação ser tão especial.
+
+Eu fiz esse pequeno site para servir de recordação para nós.
+
+Feliz dois anos, amor! Que venham muitos outros ao seu lado.</p>
+  </section>
+
+  <section class="card">
+    <h2>📅 Nossas Datas</h2>
+    <ul>
+      <li>💖 Primeiro encontro: 14/02/2023</li>
+      <li>💍 Início do namoro: 10/06/2023</li>
+      <li>🌅 Primeira viagem: 31/04/2024</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>📸 Nossos Momentos</h2>
+    <div class="gallery">
+      <img src="fotos\foto1.jpeg" alt="Foto 1">
+      <img src="fotos\foto2.jpeg" alt="Foto 2">
+      <img src="fotos\foto3.jpeg" alt="Foto 3">
+      <img src="fotos\foto4.jpeg" alt="Foto 4">
+	  <img src="fotos\foto5.jpeg" alt="Foto 5">
+	  <img src="fotos\foto6.jpeg" alt="Foto 6">
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>🎶 Nossa Música</h2>
+    <audio controls>
+      <source src="musicas\musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+  </section>
+
+  <section class="card">
+    <h2>🕰️ Linha do Tempo</h2>
+    <div class="timeline">
+      <div class="event">
+        <div class="dot">💘</div>
+        <div class="content">
+          <h3>11/02/2023</h3>
+          <p>Nosso primeiro encontro. O início de tudo.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="dot">💍</div>
+        <div class="content">
+          <h3>10/06/2023</h3>
+          <p>Oficializamos nosso namoro com muitos sorrisos.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="dot">🌅</div>
+        <div class="content">
+          <h3>30/04/2024</h3>
+          <p>Primeira viagem juntos.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="dot">🎂</div>
+        <div class="content">
+          <h3>09/03/2025</h3>
+          <p>Nossa última foto juntos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Feito com carinho por Engede Hannã 💗
+  </footer>
+</body>
+</html>
